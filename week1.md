@@ -113,11 +113,13 @@ README
 
 In the example below, we are in the working directory `/Users/chen_yenru/Documents/GitHub/SCHOOL/UCSD/FA2023/CSE15L/lecture1`.
 
-When we type in `cat` with no argument, it starts awaiting user's input.
+When we type in `cat` with no argument, it starts awaiting user's input. This is because `cat` prints out the things that user wants it to print out. Thus, when we pass in no argument, it starts awaiting for user's input and printing out whatever the user inputs.
+
+> I would say we can think of "`cat`" 😺 as a parrot 🦜
 
 ```zsh
 ❯ cat
-|
+(terminal is waiting for user's input)
 ```
 
 And when we type in filenames in the subdirectory such as `README`, it echoes back `"README"`:
