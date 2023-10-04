@@ -119,7 +119,7 @@ When we type in `cat` with no argument, it starts awaiting user's input. This is
 
 ```zsh
 ❯ cat
-(this is a blank line where the terminal is waiting for user's input)
+(this is a blank line where the terminal is waiting for user input)
 ```
 
 And when we type in filenames in the subdirectory such as `README`, it echoes back `"README"`:
