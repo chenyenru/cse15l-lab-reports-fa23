@@ -74,9 +74,40 @@ cd: not a directory: Hello.java
 
 ## `ls`: List 
 ### with no arguments
+
+In the example below, we have the working directory `/Users/chen_yenru/Documents/GitHub/SCHOOL/UCSD/FA2023/CSE15L`.
+
+When we type in `ls` without argument, the terminal returned the file and subdirectory within the working directory.
+
+```zsh
+❯ ls
+cse15l-lab-reports-fa23 lecture1
+```
 ### with a path to a directory as an argument.
+In the example below, we have the working directory `/Users/chen_yenru/Documents/GitHub/SCHOOL/UCSD/FA2023/CSE15L`.
+
+When we type in `ls` with the argument `lecture1` (which is a subdirectory in our working directory), the terminal returns the files and subdirectories inside `lecture1`.
+
+The `ls` command might have interpreted the argument as the directory to instead start with in listing content. 
+
+```zsh
+❯ ls lecture1/
+Hello.java README     messages
+```
+
+
 ### with a path to a file as an argument.
 
+In this example below, we are in the working directory `/Users/chen_yenru/Documents/GitHub/SCHOOL/UCSD/FA2023/CSE15L/lecture1`.
+
+When we type in `ls` with the argument `README` (which is a file in our working directory), the terminal returns the file's name.
+
+This might have happened because when the argument is a filename, `ls` lists the file's name in return.
+
+```zsh
+❯ ls README
+README
+```
 ## `cat`: Concatenate
 ### with no arguments
 ### with a path to a directory as an argument.
