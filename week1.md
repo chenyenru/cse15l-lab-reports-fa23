@@ -110,5 +110,51 @@ README
 ```
 ## `cat`: Concatenate
 ### with no arguments
+
+In the example below, we are in the working directory `/Users/chen_yenru/Documents/GitHub/SCHOOL/UCSD/FA2023/CSE15L/lecture1`.
+
+When we type in `cat` with no argument, it starts awaiting user's input.
+
+```zsh
+❯ cat
+|
+```
+
+And when we type in filenames in the subdirectory such as `README`, it echoes back `"README"`:
+
+```zsh
+❯ cat
+README
+README
+```
+
 ### with a path to a directory as an argument.
+
+In the example below, we're in the working directory `/Users/chen_yenru/Documents/GitHub/SCHOOL/UCSD/FA2023/CSE15L/lecture1`. When we pass in the directory `/messages`, the error `cat: messages: Is a directory` is returned. 
+
+This might be because `cat` is used to view or create **a file te**. Thus, it doesn't support working with directories since it is not what it's supposed to do.
+
+```zsh
+❯ cat messages
+cat: messages: Is a directory
+```
 ### with a path to a file as an argument.
+
+In the example below, we're in the working directory `/Users/chen_yenru/Documents/GitHub/SCHOOL/UCSD/FA2023/CSE15L/lecture1`. When we pass in the file name `Hello.java`, the content of `Hello.java` is printed out in the terminal.
+
+This might be because `cat` serves for this exact purpose of printing out the content of the file in command argument.
+
+```zsh
+❯ cat Hello.java
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+
+public class Hello {
+  public static void main(String[] args) throws IOException {
+    String content = Files.readString(Path.of(args[0]), StandardCharsets.UTF_8);    
+    System.out.println(content);
+  }
+}
+```
