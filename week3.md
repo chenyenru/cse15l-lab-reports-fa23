@@ -2,6 +2,9 @@
 
 ## Part 1 Terminal Chatbot 🎣 🐟 🍣
 
+### My `StringServer.java` file and how I hosted the server
+In the demo below, I used the port number `5001`. I hosted the server on `http://ieng6-203:5001`.
+
 The following is the code I used in the file `StringServer.java`:
 
 ```java
@@ -67,14 +70,16 @@ class StringServer {
 This is the default page:
 ![Alt text](./images/week3_images/default-page.png)
 
-After I used ``
+### `add-message` functionality
+#### First Message: How Are You
+After I used ``http://ieng6-203:5001/add-message?s=how are you`, the following is returned
 ![Alt text](./images/week3_images/first-image.png)
 
 Which methods in your code are called?
 What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
-
+### Second message: i'll say good no matter what
 ![Alt text](./images/week3_images/second-image.png)
 
 Which methods in your code are called?
