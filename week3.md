@@ -105,15 +105,20 @@ String[] parameters = url.getQuery().split("=");
                 messages.add(parameters[1]);
 ```
 
+We can access this added message by calling `messages.get(0)`
+
 ### Second message: "*i'll say good no matter what*""
 ![Alt text](./images/week3_images/second-image.png)
 
 > 🗣️: Which methods in your code did you call?
 
-I called the `handleRequest` method, which uses the `defaultPage` helper function.
+I called the `handleRequest` method, which uses the `defaultPage()` helper function.
+
+*Note: This is identical to the response for[the first message](#first-message-how-are-you)*
 
 > 🗣️: What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
+*Please see the explanation for [the first message](#first-message-how-are-you).*
 
 > 🗣️: How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
@@ -124,7 +129,7 @@ We can access the message by calling `messages.get(1)`
 
 
 
-## Part 2 ssh interactions 👹
+## Part 2 `SSH` interactions 👹
 > 🗣️: The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)
 > ![Alt text](./images/week3_images/local-terminal.png)
 
