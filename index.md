@@ -5,3 +5,4 @@
 
 - [Lab Report 1](./lab1.md)
 - [Lab Report 2](./lab2.md)
+- [Lab Report 3](./lab3.md)

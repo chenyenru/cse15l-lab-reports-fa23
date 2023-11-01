@@ -131,9 +131,11 @@ We can access the message by calling `messages.get(1)`
 
 ## Part 2 `SSH` interactions 👹
 > 🗣️: The path to the private key for your SSH key for logging into ieng6 (on your computer or on the home directory of the lab computer)
+> The Path:`/Users/chen_yenru/.ssh/id_rsa`
 > ![Alt text](./images/week3_images/local-terminal.png)
 
 > 🗣️: The path to the public key for your SSH key for logging into ieng6 (within your account on ieng6)
+> The Path:`.ssh/authorized_keys`
 > ![Alt text](./images/week3_images/remote-terminal.png)
 
 > 🗣️: A terminal interaction where you log into ieng6 with your course-specific account without being asked for a password.
