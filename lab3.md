@@ -89,6 +89,8 @@ The bug happens because:
 
 The new version of the code fixes this issue because first, it only loops through the first half of the element to swap with the corresponding element in the other half that is to be swapped. This avoids the swapping of the element from happening 2 times, which might lead the swapping to be non-effective at all since it swaps them first but then swaps them back.
 
+Next, it also initializes a new variable called `temp`. This prevents the original value of the element from being lost when it's swapped with another one.
+
 ## Part 2 - Researching Commands
 
 ### Outline
@@ -96,8 +98,8 @@ I'll be researching on the `grep` command. Here's the following command-line opt
 
 1. `-v`, `--invert-match`
 2. `-m`, `--max-count`
-3. `--include` <u>pattern</u>
-4. `-e` <u>pattern</u>, `--regexp=`<u>pattern</u>
+3. `-n`
+4. `-A num`, `--after-context=num`
 
 > Note: I found these command-line options and descriptions from the description printed after typing `man grep` in my terminal.
 
