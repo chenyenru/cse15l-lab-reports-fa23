@@ -173,18 +173,18 @@ This command shows the first 5 occurences of "Boston Center:" in Chapter 1: `gre
 ##### Example 2
 For the PLOS journals, we can use `grep` to find all the instances when the journal article mentioned about "Latin America".
 
-`grep -im 5 "Latin America" technical/plos/*.txt`
+`grep -im 5 "Taiwan" technical/plos/*.txt`
 
 Here we used `-i` and `-m`.
 `-i` helped make search case insensitive.
 `-m` specified the maximum count of occurences it'll be showing.
 
-Thus, this command uses case insensitive search to search for the first 5 occurences of "Latin America" of the text files in the directory `technical/plos`.
+Thus, this command uses case insensitive search to search for the first 5 occurences of "Taiwan" of the text files in the directory `technical/plos`.
 
-This will be useful when we're interested in finding Biology research related to "Latin America," specifically the lines that we should be looking for within different paper.
+This will be useful when we're interested in finding Biology research related to "Taiwan", specifically the lines that we should be looking for within different paper.
 
 ```
-technical/plos/journal.pbio.0020113.txt:        monitoring programs. “With the recent expansion of the Taiwanese and Chinese fleets, we
+technical/plos/journal.pbio.0020113.txt: monitoring programs. “With the recent expansion of the Taiwanese and Chinese fleets, we
 ```
 
 #### `-iR` pattern
