@@ -184,14 +184,7 @@ Thus, this command uses case insensitive search to search for the first 5 occure
 This will be useful when we're interested in finding Biology research related to "Latin America," specifically the lines that we should be looking for within different paper.
 
 ```
-technical/plos/journal.pbio.0020001.txt:        developing countries. For example, Latin America and China, although representing,
-technical/plos/journal.pbio.0020001.txt:        lion's share (84.2%), followed by Canada (10.35%). Latin America as a whole contributed
-technical/plos/journal.pbio.0020001.txt:        1990 as a comparison, revealed that scientific publishing in Latin America increased the
-technical/plos/journal.pbio.0020001.txt:        Canada and United States, the trend in Latin America has been an increase in relative
-technical/plos/journal.pbio.0020001.txt:        research money available to researchers, Latin America actually out-published the United
-technical/plos/pmed.0020002.txt:        Latin America, Mexico has the largest number of reported cases, with the prevalence of
-technical/plos/pmed.0020002.txt:        disseminated or unusual cases [14]. Diagnosis in Latin America is usually based on
-technical/plos/pmed.0020002.txt:        in Latin America usually consists of one of the azoles (fluconazole or itraconazole) and/or
+technical/plos/journal.pbio.0020113.txt:        monitoring programs. “With the recent expansion of the Taiwanese and Chinese fleets, we
 ```
 
 #### `-iR` pattern
