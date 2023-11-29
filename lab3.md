@@ -162,13 +162,13 @@ The 911 technical reports contain how different sectors communicated with each o
 
 This command shows the first 5 occurences of "Boston Center:" in Chapter 1: `grep -m 5 "Boston Center:" ./technical/911report/chapter-1.txt`. This is useful for us to view what the Boston Aircraft Control Center said to other people/center on phone.
 
-```
+<code>
     Meanwhile, a manager from Boston Center reported that they had deciphered what they had heard in one of the first hijacker transmissions from American 11: Boston Center: Hey . . . you still there?
     Boston Center: . . . as far as the tape, Bobby seemed to think the guy said that "we have planes." Now, I don't know if it was because it was the accent, or if there's more than one, but I'm gonna, I'm gonna reconfirm that for you, and I'll get back to you real quick. Okay? New England Region: Appreciate it.
     Boston Center: Planes, as in plural.
     Boston Center: It sounds like, we're talking to New York, that there's another one aimed at the World Trade Center.
     Boston Center: A second one just hit the Trade Center. 
-```
+</code>
 
 ##### Example 2
 For the PLOS journals, we can use `grep` to find all the instances when the journal article mentioned about "Latin America".

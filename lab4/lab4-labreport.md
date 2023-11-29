@@ -34,7 +34,7 @@ Keys pressed:
 
 ![Alt text](step5.png)
 Keys pressed: 
-1. `<Ctrl-R> git clone <tab> <ENTER>` because I've cloned the same repo already for my base run, and the repo is the one I cloned most recently. So I get `git clone git@github.com:ucsd-cse15l-s23/lab7.git` command
+1. `<Ctrl-R> git clone <tab> <ENTER>` because I've cloned the same repo already for my base run, and the repo is the one I cloned most recently. So I get `git clone git@github.com:chenyenru/cse15l-lab7.git` command
 2. Then, I pressed `cd cse <tab> <ENTER>` because out of all the directories in the remote desktop, only `cse15l-lab7` has `cse` as its first 3 characters. So I get `cd cse15l-lab7` command.
 
 
