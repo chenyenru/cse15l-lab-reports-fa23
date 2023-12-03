@@ -67,7 +67,7 @@ public class QSort {
 }
 ```
 
-In my `main` method, I passed in the String Array `[ "b", "e", "a", "f", "c" ]`. I expected my QuickSort to sort and have the sorted array `["a", "b", "c", "d", "f"]`. However, when I ran my program with the following command:
+In my `main` method, I passed in the String Array `[ "b", "e", "a", "f", "c" ]`. I expected my QuickSort to sort and have the sorted array `["a", "b", "c", "e", "f"]`. However, when I ran my program with the following command:
 
 ```bash
 javac QSort.java
